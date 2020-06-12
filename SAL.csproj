@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SAL.Core\SAL.Core.csproj" />
+    <ProjectReference Include="..\SAL.DataAccess\SAL.DataAccess.csproj" />
+    <ProjectReference Include="..\SAL.DTO\SAL.DTO.csproj" />
+  </ItemGroup>
+
+
+</Project>
